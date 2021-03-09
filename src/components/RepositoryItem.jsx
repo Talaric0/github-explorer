@@ -6,7 +6,7 @@ export default function RepositoryItem(props) {
       <strong>{props.repository.name ?? "Default"}</strong>
       <p>{props.repository.description}</p>
 
-      <a href={props.repository.link}>Acessar Repo</a>
+      <a href={props.repository.link}>Go to Repo</a>
     </li>
   );
 }
